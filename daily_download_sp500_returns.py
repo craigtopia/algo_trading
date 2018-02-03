@@ -14,7 +14,7 @@ WIKI_SP500_LIST_URL = "http://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 sector = 'consumer_discretionary'
 returns = {}
 
-VANTAGE_API_KEY = '7SRT21LXFZIL2YI3'
+VANTAGE_API_KEY = ''
 weird_vantage_string = '4. close'
 SLEEP_TIME = 10
 
