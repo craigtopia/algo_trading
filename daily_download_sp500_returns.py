@@ -14,9 +14,9 @@ WIKI_SP500_LIST_URL = "http://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 sector = 'consumer_discretionary'
 returns = {}
 
-VANTAGE_API_KEY = ''
+VANTAGE_API_KEY = ''  # PLEASE ENTER YOUR VANTAGE API KEY HERE!
 weird_vantage_string = '4. close'
-SLEEP_TIME = 10
+SLEEP_TIME = 10  # Need to slow down the requests or Vantage gets upset
 
 
 def scrape_list(site):
